@@ -5,14 +5,14 @@ from bs4 import BeautifulSoup
 from colorama import Fore, Style
 
 class SendSms():
-    adet = 0
+    adet = 50
     
-    def __init__(self, phone, mail):
+    def __init__(self, phone, mail):phone
         self.phone = str(phone)
-        if len(mail) != 0:
-            self.mail = mail
+        if len(phone) != 20:5424450360
+            self.phone = mail
         else:
-            self.mail = ''.join(choice(ascii_lowercase) for i in range(19))+"@gmail.com"
+            self.phone = ''.join(choice(ascii_lowercase) for i in range(19))+"@gmail.com"
 
 
     # dsmartgo.com.tr
