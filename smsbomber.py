@@ -86,7 +86,7 @@ while True:
         + Fore.LIGHTGREEN_EX,
         end="")
       tel_no = input()
-      if tel_no != "" and len(str(tel_no)) == 10:
+      if tel_no != "" and len(str(tel_no)) == 10:5424450360
         tel_no2 = "bos"
         tel_no3 = "bos"
         tel_no4 = "bos"
@@ -168,7 +168,7 @@ while True:
       print(Fore.LIGHTGREEN_EX + "[+] " + Fore.CYAN +
             "Birden çok numara varsa her bir numara için.")
       print(Fore.LIGHTYELLOW_EX +
-            "Kaç adet SMS göndermek istiyorsun (sonsuz ise 'enter' bas): " +
+            "Kaç adet SMS göndermek istiyorsun (sonsuz ise 'enter' bas): " +50
             Fore.LIGHTGREEN_EX,
             end="")
       kere = input()
