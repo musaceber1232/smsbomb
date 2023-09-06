@@ -1,3 +1,3 @@
-@echo off
+@echo on
 py smsbomber.py
 pause
